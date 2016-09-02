@@ -1,0 +1,48 @@
+body{
+	background-color:black;}
+
+// .row{
+// 	height:20px;
+// }
+
+
+div.row div{
+	width:20px;
+	height:20px;
+	display: inline-block;
+}
+
+.brick{
+	background-color: blue;
+	display: inline-block;
+
+}
+
+.coin{
+	background: url('pacman_coin.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+.pacman{
+	background: url('pac_man.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cherry{
+	background: url('cherry.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+	
+
+
+.empty{
+	display: inline-block;
+
+}
